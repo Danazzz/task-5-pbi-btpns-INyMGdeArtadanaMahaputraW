@@ -53,7 +53,7 @@ Parameters:<br />
 - userId (user ID to delete)<br />
 
 <h4>Photo Endpoints</h4>
-<b>POST</b> /photo: Create a new photo with the provided information.<br />
+<b>POST</b> /photo/ Create a new photo with the provided information.<br />
 Attributes:<br />
 - ID<br />
 - Title<br />
@@ -62,11 +62,11 @@ Attributes:<br />
 - UserID<br />
 <h4>Relationships:</h4>
 User (constraint cascade)<br />
-<b>GET</b> /photo: Fetch all photos.<br />
-<b>PUT</b> /photo/:photoId: Update photo information.<br />
+<b>GET</b> /photo/ Fetch all photos.<br />
+<b>PUT</b> /photo/ Update photo information.<br />
 Parameters:<br />
 photoId (photo ID to update)<br />
-<b>DELETE</b> /photo/:photoId: Delete a photo.<br />
+<b>DELETE</b> /photo/ Delete a photo.<br />
 Parameters:<br />
 photoId (photo ID to delete)<br />
 
